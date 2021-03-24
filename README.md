@@ -2,6 +2,8 @@ Add as a first buildpack in the chain. Set `PROJECT_PATH` environment variable t
 
 **Disclaimer:** I may change the code without notice, so always pin to specific github version. Provided as is.
 
+**Updated for Sugaro** We do not clear the root directory before copying the subdirectory.
+
 # How to use:
 1. `heroku buildpacks:clear` if necessary
 2. `heroku buildpacks:set https://github.com/timanovsky/subdir-heroku-buildpack`
